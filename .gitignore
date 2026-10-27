@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.sites-local/
+*.zip
+.npm-cache/
+.playwright-cli/
+output/

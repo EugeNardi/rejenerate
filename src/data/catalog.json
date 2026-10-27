@@ -1,0 +1,1449 @@
+{
+  "meta": {
+    "brand": "ReJeanérate",
+    "generated": "2026-10-27",
+    "source": [
+      "Catalogo_ReJeanerate_Linea_Mascotas.docx",
+      "Catalogo_ReJeanerate_Linea_Escolar.docx",
+      "Catalogo_ReJeanerate_Linea_Hogar_Accesorios.docx",
+      "INFORME_VERSION_9.docx"
+    ],
+    "priceNote": "Precios de venta de la línea mascotas según su catálogo. El catálogo no indica fecha de vigencia (pendiente). Los precios de las líneas escolar y hogar son sugeridos y no se muestran.",
+    "imageNote": "Las fotos de producto provienen de los catálogos del equipo. Según su aspecto podrían ser imágenes generadas y no fotos de prototipos: confirmar y reemplazar por fotos reales."
+  },
+  "lines": [
+    {
+      "id": "mascotas",
+      "name": "Línea mascotas",
+      "status": "lanzamiento",
+      "description": "Paseo, abrigo, descanso y juego. Es la línea con la que lanzamos."
+    },
+    {
+      "id": "escolar",
+      "name": "Escolar y oficina",
+      "status": "proxima",
+      "description": "Una línea que estamos preparando para más adelante."
+    },
+    {
+      "id": "hogar",
+      "name": "Hogar y accesorios",
+      "status": "proxima",
+      "description": "Una línea que estamos preparando para más adelante."
+    }
+  ],
+  "categories": [
+    {
+      "id": "paseo",
+      "line": "mascotas",
+      "name": "Para el paseo"
+    },
+    {
+      "id": "abrigo",
+      "line": "mascotas",
+      "name": "Abrigo"
+    },
+    {
+      "id": "descanso-y-juego",
+      "line": "mascotas",
+      "name": "Descanso y juego"
+    },
+    {
+      "id": "accesorios",
+      "line": "mascotas",
+      "name": "Accesorios"
+    }
+  ],
+  "sizeGuide": {
+    "unit": "cm",
+    "rows": [
+      {
+        "size": "XXS",
+        "neck": "18 a 22",
+        "chest": "28 a 32",
+        "back": "20",
+        "weight": "hasta 2 kg"
+      },
+      {
+        "size": "XS",
+        "neck": "22 a 26",
+        "chest": "32 a 38",
+        "back": "25",
+        "weight": "2 a 4 kg"
+      },
+      {
+        "size": "S",
+        "neck": "26 a 30",
+        "chest": "38 a 44",
+        "back": "30",
+        "weight": "4 a 7 kg"
+      },
+      {
+        "size": "M",
+        "neck": "30 a 36",
+        "chest": "44 a 52",
+        "back": "35",
+        "weight": "7 a 12 kg"
+      },
+      {
+        "size": "L",
+        "neck": "36 a 42",
+        "chest": "52 a 62",
+        "back": "42",
+        "weight": "12 a 20 kg"
+      },
+      {
+        "size": "XL",
+        "neck": "42 a 50",
+        "chest": "62 a 72",
+        "back": "50",
+        "weight": "20 a 30 kg"
+      },
+      {
+        "size": "XXL",
+        "neck": "50 a 58",
+        "chest": "72 a 85",
+        "back": "60",
+        "weight": "30 a 40 kg"
+      }
+    ],
+    "howTo": [
+      {
+        "part": "Cuello",
+        "text": "En la base, donde va el collar, dejando pasar dos dedos."
+      },
+      {
+        "part": "Pecho",
+        "text": "La parte más ancha, justo detrás de las patas delanteras."
+      },
+      {
+        "part": "Lomo",
+        "text": "Desde la base del cuello hasta el nacimiento de la cola."
+      }
+    ],
+    "tip": "La medida clave es el pecho. Si queda entre dos talles, elegí el mayor.",
+    "weightNote": "El peso es solo orientativo.",
+    "pending": "El catálogo vende por gato, perro chico, mediano y grande (y S, M, L en cuchas). Falta definir a qué talles de esta guía corresponde cada uno."
+  },
+  "products": [
+    {
+      "id": "set-paseo-mono",
+      "name": "Set Paseo Moño",
+      "category": "paseo",
+      "featured": true,
+      "order": 1,
+      "short": "Collar y correa de jean con moño a juego.",
+      "long": "Collar y correa de jean recuperado con un moño a juego. Para gato se ofrece solo el collar con moño, porque la correa casi no se usa.",
+      "variants": [
+        {
+          "id": "gato",
+          "label": "Gato (solo collar)",
+          "price": 9000
+        },
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 22000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 25000
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 28000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/set-paseo-mono.webp",
+        "width": 1000,
+        "height": 288,
+        "alt": "Collar con moño y correa de jean con mosquetón metálico, sobre fondo blanco",
+        "fit": "contain",
+        "focal": "centro: no recortar el moño ni el mosquetón",
+        "srcSmall": "/assets/products/mascotas/set-paseo-mono-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas de collar y correa por talle",
+        "Correspondencia entre chico, mediano y grande y la guía XXS a XXL",
+        "Adicional por personalización con el nombre"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "pechera-aventura",
+      "name": "Pechera Aventura",
+      "category": "paseo",
+      "featured": false,
+      "order": 2,
+      "short": "Pechera regulable con hebillas y aro D, tipo arnés acolchado.",
+      "long": "Pechera regulable de jean recuperado, con hebillas y aro D para enganchar la correa. Tipo arnés acolchado, pensada para el paseo de todos los días.",
+      "variants": [
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 22000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 25000
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 28000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/pechera-aventura.webp",
+        "width": 1000,
+        "height": 986,
+        "alt": "Tres pecheras de jean en talles chico, mediano y grande sobre una mesa de madera clara",
+        "fit": "cover",
+        "focal": "centro; conservar las tres pecheras completas",
+        "srcSmall": "/assets/products/mascotas/pechera-aventura-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas por talle",
+        "Correspondencia con la guía XXS a XXL",
+        "Resultado de las pruebas de tracción y lavado"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "pretal-liviano",
+      "name": "Pretal Liviano",
+      "category": "paseo",
+      "featured": false,
+      "order": 3,
+      "short": "Pechera simple de tela, sin acolchado ni hebillas.",
+      "long": "Pretal de jean recuperado, una pechera simple sin acolchado ni hebillas, para perro y gato.",
+      "variants": [
+        {
+          "id": "gato",
+          "label": "Gato",
+          "price": 10000
+        },
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 12000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 13500
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 15000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/pretal-liviano.webp",
+        "width": 998,
+        "height": 1000,
+        "alt": "Pretal de jean con parche de cuero y etiqueta colgante de cartón, sobre una mesa de madera",
+        "fit": "cover",
+        "focal": "centro; conservar la etiqueta colgante",
+        "srcSmall": "/assets/products/mascotas/pretal-liviano-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas por talle",
+        "Forma de cierre o ajuste"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "cucha-nido",
+      "name": "Cucha Nido",
+      "category": "descanso-y-juego",
+      "featured": true,
+      "order": 4,
+      "short": "Cucha para perro con funda de jean desmontable.",
+      "long": "Cucha de patchwork de jean recuperado con funda desmontable, en tres tamaños.",
+      "variants": [
+        {
+          "id": "s",
+          "label": "Talle S",
+          "price": 30000
+        },
+        {
+          "id": "m",
+          "label": "Talle M",
+          "price": 38000
+        },
+        {
+          "id": "l",
+          "label": "Talle L",
+          "price": 46000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/cucha-nido.webp",
+        "width": 716,
+        "height": 716,
+        "alt": "Perro descansando en una cucha de patchwork de jean con un hueso de jean y una etiqueta colgante",
+        "fit": "cover",
+        "focal": "centro-izquierda: el perro y el borde de la cucha",
+        "srcSmall": "/assets/products/mascotas/cucha-nido-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas de cada tamaño",
+        "Material del relleno",
+        "Instrucciones de lavado de la funda"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "hueso-mordelon",
+      "name": "Hueso Mordelón",
+      "category": "descanso-y-juego",
+      "featured": false,
+      "order": 5,
+      "short": "Juguete de jean con forma de hueso.",
+      "long": "Juguete de jean recuperado con forma de hueso. El chifle es opcional.",
+      "variants": [
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 9000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 10500
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 12000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/hueso-mordelon.webp",
+        "width": 1000,
+        "height": 288,
+        "alt": "Juguete de jean con forma de hueso y parche de cuero, sobre fondo gris claro",
+        "fit": "contain",
+        "focal": "centro: no cortar las puntas del hueso",
+        "srcSmall": "/assets/products/mascotas/hueso-mordelon-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Precio o adicional de la versión con chifle",
+        "Material del relleno"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "campera-corderito",
+      "name": "Campera Corderito",
+      "category": "abrigo",
+      "featured": true,
+      "order": 6,
+      "short": "Campera de jean para perro con cuello de corderito.",
+      "long": "Campera para perro en patchwork de jean recuperado, con cuello de corderito (sherpa).",
+      "variants": [
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 28000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 31000
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 34000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/campera-corderito.webp",
+        "width": 1000,
+        "height": 951,
+        "alt": "Campera de patchwork de jean para perro con etiqueta colgante de cartón",
+        "fit": "cover",
+        "focal": "centro; conservar la etiqueta colgante",
+        "srcSmall": "/assets/products/mascotas/campera-corderito-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas por talle (lomo)",
+        "Forma de cierre"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "capa-retazos",
+      "name": "Capa Retazos",
+      "category": "abrigo",
+      "featured": false,
+      "order": 7,
+      "short": "Abrigo tipo capa con cierre de abrojo bajo la panza.",
+      "long": "Abrigo tipo capa hecho con retazos de jean recuperado, que se cierra con abrojo bajo la panza.",
+      "variants": [
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 18000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 21500
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 25000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/capa-retazos.webp",
+        "width": 1000,
+        "height": 1000,
+        "alt": "Tres perros de distinto tamaño con capas de retazos de jean",
+        "fit": "cover",
+        "focal": "centro; conservar los tres perros completos",
+        "srcSmall": "/assets/products/mascotas/capa-retazos-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Confirmar si lleva forro (el catálogo lo plantea como condición de viabilidad)",
+        "Medidas por talle"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "bandana-indigo",
+      "name": "Bandana Índigo",
+      "category": "accesorios",
+      "featured": true,
+      "order": 8,
+      "short": "Bandana triangular de jean para perro y gato.",
+      "long": "Bandana triangular de jean recuperado, en tamaños para gato y para perro chico, mediano y grande.",
+      "variants": [
+        {
+          "id": "gato",
+          "label": "Gato",
+          "price": 8000
+        },
+        {
+          "id": "perro-chico",
+          "label": "Perro chico",
+          "price": 9000
+        },
+        {
+          "id": "perro-mediano",
+          "label": "Perro mediano",
+          "price": 10500
+        },
+        {
+          "id": "perro-grande",
+          "label": "Perro grande",
+          "price": 12000
+        }
+      ],
+      "image": {
+        "src": "/assets/products/mascotas/bandana-indigo.webp",
+        "width": 1000,
+        "height": 808,
+        "alt": "Bandanas triangulares de jean en distintos tonos y tamaños con parches de cuero",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/mascotas/bandana-indigo-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Forma de ajuste (atar o broche)"
+      ],
+      "line": "mascotas",
+      "status": "lanzamiento",
+      "currency": "ARS",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "purchasableInDemo": true
+    },
+    {
+      "id": "cartuchera-indigo",
+      "name": "Cartuchera Índigo",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 1,
+      "short": "Cartuchera rectangular de un cierre.",
+      "long": "Cartuchera rectangular de jean recuperado con un cierre.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/cartucheras-trio.webp",
+        "width": 900,
+        "height": 503,
+        "alt": "Tres cartucheras de jean con lápices de colores sobre una superficie gris",
+        "fit": "cover",
+        "focal": "centro; las tres cartucheras visibles",
+        "srcSmall": "/assets/products/escolar/cartucheras-trio-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Foto individual del producto",
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 7500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio.",
+        "imagenCompartida": "La foto muestra las tres cartucheras juntas: Índigo a la izquierda, Cinco Bolsillos al frente y Patchwork XL a la derecha (según el pie del catálogo)."
+      }
+    },
+    {
+      "id": "cartuchera-cinco-bolsillos",
+      "name": "Cartuchera Cinco Bolsillos",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 2,
+      "short": "Cartuchera tubo con bolsillos.",
+      "long": "Cartuchera tubo de jean recuperado que conserva los bolsillos originales de la prenda.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/cartucheras-trio.webp",
+        "width": 900,
+        "height": 503,
+        "alt": "Tres cartucheras de jean con lápices de colores sobre una superficie gris",
+        "fit": "cover",
+        "focal": "centro; las tres cartucheras visibles",
+        "srcSmall": "/assets/products/escolar/cartucheras-trio-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Foto individual del producto",
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 16000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio.",
+        "imagenCompartida": "Misma foto de grupo."
+      }
+    },
+    {
+      "id": "cartuchera-patchwork-xl",
+      "name": "Cartuchera Patchwork XL",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 3,
+      "short": "Cartuchera organizadora de patchwork.",
+      "long": "Cartuchera organizadora de patchwork de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/cartucheras-trio.webp",
+        "width": 900,
+        "height": 503,
+        "alt": "Tres cartucheras de jean con lápices de colores sobre una superficie gris",
+        "fit": "cover",
+        "focal": "centro; las tres cartucheras visibles",
+        "srcSmall": "/assets/products/escolar/cartucheras-trio-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Foto individual del producto",
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 22000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio.",
+        "imagenCompartida": "Misma foto de grupo."
+      }
+    },
+    {
+      "id": "tote-segunda-vida",
+      "name": "Tote Segunda Vida",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 4,
+      "short": "Bolso tote con bolsillo trasero.",
+      "long": "Bolso tote de jean recuperado con bolsillo trasero.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/tote-segunda-vida.webp",
+        "width": 900,
+        "height": 259,
+        "alt": "Bolso tote de jean con bolsillo y etiqueta colgante, sobre un piso de madera",
+        "fit": "contain",
+        "focal": "centro",
+        "srcSmall": "/assets/products/escolar/tote-segunda-vida-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas",
+        "Foto en mejor resolución"
+      ],
+      "internal": {
+        "precioSugerido": 25000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "funda-apunte",
+      "name": "Funda Apunte",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 5,
+      "short": "Funda para cuaderno o agenda con portalápices.",
+      "long": "Funda de jean recuperado para cuaderno o agenda, con bolsillo portalápices.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/funda-apunte.webp",
+        "width": 900,
+        "height": 259,
+        "alt": "Funda de jean para cuaderno con bolsillo portalápices y lapiceras",
+        "fit": "contain",
+        "focal": "centro",
+        "srcSmall": "/assets/products/escolar/funda-apunte-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas y tamaños de cuaderno compatibles",
+        "Foto en mejor resolución"
+      ],
+      "internal": {
+        "precioSugerido": 15000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "canasto-orden",
+      "name": "Canasto Orden",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 6,
+      "short": "Canasto organizador rectangular con asas.",
+      "long": "Canasto organizador rectangular de jean recuperado, con asas.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/canasto-orden.webp",
+        "width": 900,
+        "height": 259,
+        "alt": "Canasto rectangular de jean con asas en un estante de madera",
+        "fit": "contain",
+        "focal": "centro",
+        "srcSmall": "/assets/products/escolar/canasto-orden-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas",
+        "Material de las asas",
+        "Foto en mejor resolución"
+      ],
+      "internal": {
+        "precioSugerido": 20000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "balde-taller",
+      "name": "Balde Taller",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 7,
+      "short": "Organizador de escritorio cilíndrico con bolsillos.",
+      "long": "Organizador de escritorio cilíndrico de jean recuperado, con bolsillos alrededor.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/balde-taller.webp",
+        "width": 650,
+        "height": 900,
+        "alt": "Organizador cilíndrico de jean con bolsillos llenos de útiles escolares",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/escolar/balde-taller-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 22000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "bolsillero-mil-bolsillos",
+      "name": "Bolsillero Mil Bolsillos",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 8,
+      "short": "Organizador de pared con bolsillos.",
+      "long": "Organizador de pared hecho con bolsillos de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/bolsillero-mil-bolsillos.webp",
+        "width": 491,
+        "height": 900,
+        "alt": "Organizador de pared de jean con muchos bolsillos y apliques, colgado de una vara de madera",
+        "fit": "cover",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas",
+        "Cantidad de bolsillos"
+      ],
+      "internal": {
+        "precioSugerido": 28000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "enrollable-oficina",
+      "name": "Enrollable Oficina",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 9,
+      "short": "Organizador de escritorio enrollable.",
+      "long": "Organizador enrollable de jean recuperado para lapiceras, cables y celular.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": null,
+      "pending": [
+        "Foto propia del producto (la del catálogo es de terceros y no se incluye)",
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 22000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "enrollable-artista",
+      "name": "Enrollable Artista",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 10,
+      "short": "Estuche enrollable para pinceles.",
+      "long": "Estuche enrollable de jean recuperado para pinceles. Hay una versión Girasol con apliques tejidos.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [
+        {
+          "id": "clasica",
+          "label": "Clásica",
+          "price": null
+        },
+        {
+          "id": "girasol",
+          "label": "Girasol",
+          "price": null
+        }
+      ],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/enrollable-artista.webp",
+        "width": 900,
+        "height": 259,
+        "alt": "Dos vistas de un estuche enrollable de jean: cerrado con apliques de girasol y abierto con pinceles",
+        "fit": "contain",
+        "focal": "centro; no cortar ninguna de las dos vistas",
+        "srcSmall": "/assets/products/escolar/enrollable-artista-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Confirmar si las dos vistas de la foto corresponden a la misma versión",
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 18000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio.",
+        "precioSugeridoGirasol": 21000
+      }
+    },
+    {
+      "id": "lapicero-indigo",
+      "name": "Lapicero Índigo",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 11,
+      "short": "Portalápices cilíndrico.",
+      "long": "Portalápices cilíndrico de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/lapicero-indigo.webp",
+        "width": 805,
+        "height": 900,
+        "alt": "Portalápices cilíndrico de jean con lápices, pinceles y lapiceras sobre un escritorio",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/escolar/lapicero-indigo-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 6500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "mochila-saco-doble-bolsillo",
+      "name": "Mochila Saco Doble Bolsillo",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 12,
+      "short": "Mochila saco de cuerdas.",
+      "long": "Mochila saco de cuerdas hecha con jean recuperado, que conserva dos bolsillos traseros.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/mochila-saco-doble-bolsillo.webp",
+        "width": 602,
+        "height": 900,
+        "alt": "Mochila saco de jean con cuerdas azules y dos bolsillos traseros, sobre una alfombra blanca",
+        "fit": "cover",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 22000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "delantal-portautiles-tortuga",
+      "name": "Delantal Portaútiles Tortuga",
+      "line": "escolar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 13,
+      "short": "Delantal portaútiles de cintura.",
+      "long": "Delantal portaútiles de cintura de jean recuperado, con un aplique de tortuga.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/escolar/delantal-portautiles-tortuga.webp",
+        "width": 900,
+        "height": 259,
+        "alt": "Dos vistas de un delantal portaútiles de jean con aplique de tortuga y útiles en los bolsillos",
+        "fit": "contain",
+        "focal": "centro; no cortar ninguna de las dos vistas",
+        "srcSmall": "/assets/products/escolar/delantal-portautiles-tortuga-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas",
+        "Confirmar si las dos vistas son el mismo delantal"
+      ],
+      "internal": {
+        "precioSugerido": 18000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "almohadon-retazo",
+      "name": "Almohadón Retazo",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 1,
+      "short": "Almohadón decorativo de patchwork, con relleno.",
+      "long": "Almohadón decorativo de patchwork de jean recuperado, con relleno.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/almohadon-retazo.webp",
+        "width": 373,
+        "height": 402,
+        "alt": "Almohadón cuadrado de patchwork de jean con parche de cuero",
+        "fit": "cover",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas",
+        "Foto en mayor resolución (la disponible mide menos de 640 px de ancho)"
+      ],
+      "internal": {
+        "precioSugerido": 19500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "individual-tejido-posavasos",
+      "name": "Individual Tejido con posavasos",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 2,
+      "short": "Individual de mesa tejido con posavasos a juego.",
+      "long": "Individual de mesa tejido con tiras de jean recuperado y un posavasos haciendo juego.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/individual-tejido-posavasos.webp",
+        "width": 386,
+        "height": 272,
+        "alt": "Individual de mesa tejido con tiras de jean y un posavasos",
+        "fit": "contain",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas",
+        "Foto en mayor resolución (la disponible mide menos de 640 px de ancho)"
+      ],
+      "internal": {
+        "precioSugerido": 17500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "pantuflas-de-jean",
+      "name": "Pantuflas de Jean",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 3,
+      "short": "Pantuflas abiertas con suela.",
+      "long": "Pantuflas abiertas de jean recuperado con suela.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/pantuflas-de-jean.webp",
+        "width": 393,
+        "height": 211,
+        "alt": "Par de pantuflas abiertas de patchwork de jean sobre madera clara",
+        "fit": "contain",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas",
+        "Foto en mayor resolución (la disponible mide menos de 640 px de ancho)"
+      ],
+      "internal": {
+        "precioSugerido": 23500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "manta-indigo",
+      "name": "Manta Índigo",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 4,
+      "short": "Manta o pie de cama de patchwork.",
+      "long": "Manta o pie de cama de patchwork de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/manta-indigo.webp",
+        "width": 364,
+        "height": 402,
+        "alt": "Manta de patchwork de jean doblada con parche de cuero",
+        "fit": "cover",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas",
+        "Foto en mayor resolución (la disponible mide menos de 640 px de ancho)"
+      ],
+      "internal": {
+        "precioSugerido": 52000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "guirnalda-corona-trenzadas",
+      "name": "Guirnalda y Corona Trenzadas",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 5,
+      "short": "Guirnalda y corona de tiras de jean trenzadas.",
+      "long": "Set de guirnalda y corona decorativas hechas con tiras de jean recuperado trenzadas.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/guirnalda-corona-trenzadas.webp",
+        "width": 630,
+        "height": 317,
+        "alt": "Guirnalda y corona de tiras de jean trenzadas sobre una chimenea",
+        "fit": "contain",
+        "focal": "centro"
+      },
+      "pending": [
+        "Medidas",
+        "Foto en mayor resolución (la disponible mide menos de 640 px de ancho)"
+      ],
+      "internal": {
+        "precioSugerido": 31000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "bolso-tote",
+      "name": "Bolso Tote",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 6,
+      "short": "Bolso tote de patchwork.",
+      "long": "Bolso tote de patchwork de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/bolso-tote.webp",
+        "width": 904,
+        "height": 636,
+        "alt": "Bolso tote de patchwork de jean con parche de cuero y etiqueta colgante",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/bolso-tote-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 22000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "canasto-tejido",
+      "name": "Canasto Tejido",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 7,
+      "short": "Canasto redondo tejido con tiras de jean.",
+      "long": "Canasto redondo tejido con tiras de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/canasto-tejido.webp",
+        "width": 928,
+        "height": 653,
+        "alt": "Canasto redondo tejido con tiras de jean con libros y telas adentro",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/canasto-tejido-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 17500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "tapiz-macrame",
+      "name": "Tapiz Macramé",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 8,
+      "short": "Tapiz de pared en macramé con tiras de jean.",
+      "long": "Tapiz de pared en macramé hecho con tiras de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/tapiz-macrame.webp",
+        "width": 990,
+        "height": 696,
+        "alt": "Tapiz de macramé con tiras de jean colgado en una pared",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/tapiz-macrame-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 37500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "almohadon-inicial-r",
+      "name": "Almohadón Inicial R",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 9,
+      "short": "Almohadón con forma de letra, de patchwork.",
+      "long": "Almohadón con forma de letra, de patchwork de jean recuperado. Puede pedirse con otra inicial.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/almohadon-inicial-r.webp",
+        "width": 660,
+        "height": 638,
+        "alt": "Almohadón con forma de letra R de patchwork de jean sobre una repisa",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/almohadon-inicial-r-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 28500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "espejo-patchwork",
+      "name": "Espejo Patchwork",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 10,
+      "short": "Espejo de pared con marco de patchwork.",
+      "long": "Espejo de pared con marco forrado en patchwork de jean recuperado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/espejo-patchwork.webp",
+        "width": 669,
+        "height": 738,
+        "alt": "Espejo con marco forrado en patchwork de jean apoyado contra una pared clara",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/espejo-patchwork-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 31000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "almohadon-corazon",
+      "name": "Almohadón Corazón",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 11,
+      "short": "Almohadón con forma de corazón, de patchwork.",
+      "long": "Almohadón decorativo con forma de corazón, de patchwork de jean recuperado con bordes deshilachados.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/almohadon-corazon.webp",
+        "width": 660,
+        "height": 738,
+        "alt": "Almohadón con forma de corazón de patchwork de jean y etiqueta colgante",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/almohadon-corazon-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 18000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "llavero-pajarito",
+      "name": "Llavero Pajarito",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 12,
+      "short": "Llavero de tira de jean con dije de pajarito.",
+      "long": "Llavero hecho con una tira de jean recuperado y un dije de pajarito.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/llavero-pajarito.webp",
+        "width": 660,
+        "height": 738,
+        "alt": "Llavero de tira de jean con argolla dorada y dijes de pajarito de tela",
+        "fit": "cover",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/llavero-pajarito-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 7000,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio."
+      }
+    },
+    {
+      "id": "billetera-clasica",
+      "name": "Billetera Clásica",
+      "line": "hogar",
+      "category": null,
+      "status": "proxima",
+      "featured": false,
+      "order": 13,
+      "short": "Billetera de patchwork con interior forrado.",
+      "long": "Billetera de patchwork de jean recuperado con interior forrado.",
+      "materials": [
+        "Jean recuperado"
+      ],
+      "dimensions": null,
+      "variants": [],
+      "currency": "ARS",
+      "purchasableInDemo": false,
+      "image": {
+        "src": "/assets/products/hogar/billetera-clasica.webp",
+        "width": 1353,
+        "height": 738,
+        "alt": "Billetera de patchwork de jean vista cerrada y abierta",
+        "fit": "contain",
+        "focal": "centro",
+        "srcSmall": "/assets/products/hogar/billetera-clasica-640.webp",
+        "widthSmall": 640
+      },
+      "pending": [
+        "Medidas"
+      ],
+      "internal": {
+        "precioSugerido": 19500,
+        "nota": "Precio sugerido en el catálogo, no confirmado como precio de venta. No se muestra en el sitio.",
+        "nota2": "Inicial R: se puede ofrecer a pedido con cualquier inicial según el catálogo; no hay precio para otras iniciales."
+      }
+    }
+  ]
+}
