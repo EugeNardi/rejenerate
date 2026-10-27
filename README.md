@@ -29,4 +29,6 @@ Referencia editorial: [VERIÉ, Ismail Nahid, Dribbble](https://dribbble.com/shot
 
 Los informes Lighthouse se guardan por versión en `output/playwright/`; las mediciones locales no garantizan el resultado del entorno publicado.
 
+Medición móvil de la presentación extensa: rendimiento 78, accesibilidad 100 y buenas prácticas 100; LCP 3,7 s, sin desplazamientos de diseño. La carga anticipada de las fuentes redujo el bloqueo del hilo principal. El objetivo de rendimiento 85 y LCP menor a 2,5 s del documento inicial aún no se alcanza con esta versión ampliada.
+
 Pendientes comerciales: fotos reales de prototipos, contactos, ubicación de feria, equivalencia de talles y validación final de precios. La tienda conserva el alcance de demostración del material entregado.

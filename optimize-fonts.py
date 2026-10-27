@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('src/presentation.module.css');t=p.read_text(encoding='utf-8').replace('.canvas,.timeline,.figure{content-visibility:auto;contain-intrinsic-size:auto 1000px}.dataTable{content-visibility:auto;contain-intrinsic-size:auto 450px}\n','');p.write_text(t,encoding='utf-8')
+p=Path('index.html');t=p.read_text(encoding='utf-8');preloads=''.join(f'<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/{font}.woff2" crossorigin>' for font in ['lora-latin-700-normal','lora-latin-400-italic','lora-latin-400-normal','lato-latin-400-normal','lato-latin-700-normal','lato-latin-900-normal','lato-latin-400-italic']);t=t.replace('</head>',preloads+'</head>');p.write_text(t,encoding='utf-8')
