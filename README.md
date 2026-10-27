@@ -1,6 +1,6 @@
 # ReJeanérate
 
-Landing, catálogo de 34 productos y tienda de demostración, construidos con React 18, TypeScript, Vite y CSS Modules. La selección se conserva en sessionStorage. Los precios salen de `src/data/catalog.json`; hogar y escolar no muestran precios ni permiten agregarse.
+Landing de presentación extensa, catálogo de 34 productos y tienda de demostración, construidos con React 18, TypeScript, Vite y CSS Modules. La selección se conserva en sessionStorage. Los precios salen de `src/data/catalog.json`; hogar y escolar no muestran precios ni permiten agregarse.
 
 ## Desarrollo
 
@@ -11,7 +11,11 @@ npm run build
 npm run preview
 ```
 
-Rutas: `/`, `/tienda`, `/tienda/:id`, `/modelo` y página 404. El hosting debe servir index.html como fallback de las rutas del navegador.
+Rutas: `/`, `/tienda`, `/tienda/:id` y página 404. `/modelo` redirige al capítulo del modelo en la landing. El hosting debe servir index.html como fallback de las rutas del navegador.
+
+La landing y la tienda tienen navegación diferente. La landing reúne la presentación del proyecto y conduce al catálogo con «Ir a la tienda». La selección solo aparece en las páginas de tienda. «Volver al proyecto» permite regresar.
+
+La presentación contiene unas 3.600 palabras: idea y propósito, canje de dos vías, mercado y fuentes, tres perfiles de clientes, cuatro hallazgos, propuesta de valor, canales, diseño, producción y cadena de valor, condiciones completas del canje, diez bloques de CANVAS, costos e inversión inicial, doce tareas del lanzamiento, riesgos, métricas, equipo y profesores, talles y preguntas frecuentes. Incluye índice fijo por capítulos y CANVAS original ampliable.
 
 ## Contenido y marca
 
@@ -21,8 +25,8 @@ Referencia editorial: [VERIÉ, Ismail Nahid, Dribbble](https://dribbble.com/shot
 
 ## Verificación
 
-`npm run build` pasa. El recorrido con Playwright verifica selección, cantidades, persistencia, vaciado, menú, foto pendiente, ausencia de precios de líneas próximas y cinco rutas en 320, 360, 390, 768, 1024, 1280 y 1440 px. Capturas e informe Lighthouse en `output/playwright/`.
+`npm run build` pasa. El recorrido inicial con Playwright verifica selección, cantidades, persistencia, vaciado, menú, foto pendiente, ausencia de precios de líneas próximas y cinco rutas en 320, 360, 390, 768, 1024, 1280 y 1440 px. La ampliación verifica los datos principales, diez bloques de CANVAS, siete anchos, navegación por capítulos, modal, menú móvil, separación de tienda y redirección de /modelo. La regresión de tienda verifica combinación de ítems, copia, eliminación y retorno del foco. Capturas e informes Lighthouse en `output/playwright/`.
 
-Lighthouse móvil local: rendimiento 91, accesibilidad 100, buenas prácticas 100; LCP 2,26 s. Son mediciones locales, no una garantía del entorno publicado.
+Los informes Lighthouse se guardan por versión en `output/playwright/`; las mediciones locales no garantizan el resultado del entorno publicado.
 
 Pendientes comerciales: fotos reales de prototipos, contactos, ubicación de feria, equivalencia de talles y validación final de precios. La tienda conserva el alcance de demostración del material entregado.

@@ -1,0 +1,340 @@
+{
+  "idea": "Proponemos reutilizar prendas de jean en desuso, prendas con fallas de fabricación y retazos de denim para fabricar productos nuevos. Adoptamos la lógica de la economía circular: los residuos se convierten en recursos que vuelven al sistema productivo.",
+  "cycle": [
+    {
+      "title": "Marcas y fábricas",
+      "text": "Entregan sobrantes, retazos y jeans con fallas que no pueden vender. Reciben productos con su logo para su personal e información sobre los kilos recuperados."
+    },
+    {
+      "title": "ReJeanérate",
+      "text": "Clasifica, lava y confecciona a mano. Cada pieza es irrepetible por el tono y la textura del material."
+    },
+    {
+      "title": "Particulares",
+      "text": "Entregan jeans que ya no usan. Con tres prendas obtienen un descuento de hasta el 10% en su próxima compra."
+    }
+  ],
+  "purpose": [
+    {
+      "title": "Por qué",
+      "text": "Creemos que lo que se descarta todavía tiene valor, y que las personas y las organizaciones pueden ser parte de recuperarlo."
+    },
+    {
+      "title": "Para quién",
+      "text": "Personas y familias que buscan productos útiles, duraderos y con diseño propio, y organizaciones que necesitan resolver su descarte textil."
+    },
+    {
+      "title": "Qué y cómo",
+      "text": "Productos confeccionados a mano con jean recuperado, mediante un sistema de canje que integra a quienes entregan el material."
+    }
+  ],
+  "marketStats": [
+    {
+      "title": "80%",
+      "text": "de los argentinos tiene al menos una mascota"
+    },
+    {
+      "title": "78%",
+      "text": "de ellos tiene perro"
+    },
+    {
+      "title": "94%",
+      "text": "considera a su mascota un integrante más de la familia"
+    },
+    {
+      "title": "66%",
+      "text": "comparte fotos o videos de su mascota en redes."
+    }
+  ],
+  "marketSource": "Fuente: Kantar Insights (2024, 1.000 casos, alcance nacional), citado en Infobae (2025). Se complementa con siete entrevistas en Córdoba.",
+  "lines": [
+    {
+      "title": "Mascotas · se lanza",
+      "text": "Ningún competidor relevado la trabaja con denim recuperado, y aprovecha tanto las piezas grandes del jean como los recortes."
+    },
+    {
+      "title": "Hogar · se posterga",
+      "text": "Es la más expuesta a la importación: las confecciones para el hogar importadas crecieron 26% en volumen en el primer semestre de 2026 (Pro Tejer)."
+    },
+    {
+      "title": "Escolar y accesorios · se posterga",
+      "text": "Compite con la moda rápida y su temporada fuerte es el inicio de clases, que no coincide con un lanzamiento en diciembre."
+    }
+  ],
+  "clients": [
+    {
+      "title": "Principal · Compañeros de paseo",
+      "text": "Adultos jóvenes que pasean a su perro todos los días. Priorizan resistencia, comodidad, seguridad y talles claros. Pagan hoy entre $8.000 y $15.000 por un collar o una correa."
+    },
+    {
+      "title": "Secundario · Familias con patio",
+      "text": "Hogares donde el perro es uno más de la familia. Priorizan diseño y confort, y piden cuchas, camitas y juguetes. Pagan entre $20.000 y $40.000 por una cama."
+    },
+    {
+      "title": "Potencial · Consumidores responsables",
+      "text": "Personas con fuerte compromiso ambiental, para quienes el canje y la trazabilidad serían el motivo de compra. Se validará en la prueba piloto."
+    }
+  ],
+  "findings": [
+    {
+      "title": "Durabilidad",
+      "text": "es la duda principal."
+    },
+    {
+      "title": "Talles",
+      "text": "aparecen como problema en 4 de 7 entrevistas."
+    },
+    {
+      "title": "Sin sobreprecio",
+      "text": "lo sustentable no justifica pagar más."
+    },
+    {
+      "title": "Canje",
+      "text": "aceptación unánime; las barreras son la distancia y los pasos."
+    }
+  ],
+  "value": "Los clientes eligen primero por resistencia, comodidad y talle; el canje y el origen del material inclinan la elección cuando lo demás es parecido. Por eso comunicamos primero el producto y usamos el canje para fidelizar.",
+  "valueStatement": "Para quienes pasean a su perro todos los días y ya tuvieron que reponer accesorios que se deshilacharon: correas, pecheras y collares de jean recuperado, hechos a mano para resistir el uso diario, con costuras reforzadas, herrajes de metal y talles claros, a un precio dentro de lo que ya pagan.",
+  "businessValue": "retiro sin costo de su descarte, productos con su logo para su personal e información verificable sobre los kilos recuperados.",
+  "canvas": [
+    {
+      "title": "Segmentos de clientes",
+      "text": "Principal: Compañeros de paseo. Secundario: Familias con patio. Potencial: consumidores responsables. Interesadas en la propuesta, sin ser mercado meta: marcas y fábricas que necesitan resolver su descarte textil."
+    },
+    {
+      "title": "Propuesta de valor",
+      "text": "Accesorios de paseo resistentes, cómodos y con diseño; cuchas, camitas y juguetes que combinan con el hogar y no raspan. Piezas únicas, personalizables con el nombre de la mascota, y canje de tres prendas por hasta 10% de descuento. Para las empresas: retiro sin costo, productos con su logo e información de los kilos recuperados."
+    },
+    {
+      "title": "Canales",
+      "text": "Instagram para dar a conocer y responder, tienda online para medidas, cuidados y precios, ferias para ver y probar. Entrega propia en Córdoba Capital y alrededores. Logística inversa: retiros en marcas y fábricas agrupados por zona y jeans de particulares recibidos en ferias o al entregar un pedido."
+    },
+    {
+      "title": "Relaciones con clientes",
+      "text": "Asistencia personal por Instagram y WhatsApp, atención en ferias, guía de talles e instrucciones de cuidado, postventa, canje, personalización y comunidad en redes. Cada etiqueta informa cuánto jean recuperado contiene el producto."
+    },
+    {
+      "title": "Fuentes de ingreso",
+      "text": "Venta directa de accesorios de paseo, cuchas, camitas, juguetes y bandanas, con adicional por personalización. Set de collar y correa: $25.000, que deja $8.326 para cubrir costos fijos. El envío no es ingreso. Los canjes se registran como costos; las empresas pueden encargar productos adicionales a precio preferencial."
+    },
+    {
+      "title": "Recursos clave",
+      "text": "Denim recuperado de marcas y fábricas, y en segundo lugar de particulares y del Centro Verde Telas; avíos de calidad; saber de diseño y confección del equipo; máquinas de coser, lavarropas y vehículos propios; moldes y curva de talles; redes, tienda y registros de trazabilidad."
+    },
+    {
+      "title": "Actividades clave",
+      "text": "Diseño de moldes y prototipos con pruebas de resistencia; clasificar, lavar y desarmar; confeccionar, personalizar y controlar; preparar pedidos y entregar; contenido y venta; postventa; retiro de material, recepción del canje y registro; aprovechamiento y derivación de recortes."
+    },
+    {
+      "title": "Socios clave",
+      "text": "Marcas y fábricas de indumentaria (acuerdos previstos con Quince, Indonesia Shop y Tejano); particulares que entregan jeans; Centro Verde Telas; Hebra Circular, que recibe los recortes no aprovechables; programas de economía circular de la Municipalidad y la Provincia; mercerías y proveedores de avíos; organizadores de ferias; plataforma de tienda online."
+    },
+    {
+      "title": "Estructura de costos",
+      "text": "Impulsada por el valor. Lo más importante: mano de obra de confección y de acondicionamiento, avíos, relleno, etiquetas y packaging, descuentos del canje y productos para las empresas. Monotributo de $49.527,18 por mes, el único costo fijo conocido. Costo de un set de collar y correa: $16.674."
+    },
+    {
+      "title": "Métricas de impacto",
+      "text": "Económicas: aporte por producto ($8.326 por set, 33,3% del precio) y rendimiento de cada acuerdo. Sociales: participación en el canje, recompra y fallas por debajo del 5%. Ambientales: kilos de denim recibidos e incorporados, 85% del material con destino documentado a los seis meses, agua y energía por kilo lavado y kilómetros por pedido."
+    }
+  ],
+  "costIntro": "Talle mediano, el producto de mayor uso en el segmento principal. Los clientes entrevistados pagan entre $16.000 y $30.000 por ambas piezas y los sets relevados el 22/10/2026 se venden entre $19.920 y $25.000. Insumos cotizados el 23/10/2026; la hora de trabajo se valuó en $4.064,08 (Resolución 6/2026 de la Comisión Nacional de Trabajo en Casas Particulares), aunque al inicio el equipo no cobre.",
+  "costTables": [
+    [
+      [
+        "Grupo",
+        "Conceptos",
+        "Importe"
+      ],
+      [
+        "Trabajo",
+        "Acondicionamiento del denim (25 minutos, agua, luz y detergente) $1.993 · Confección (2 horas) $8.128",
+        "$10.121"
+      ],
+      [
+        "Insumos",
+        "Herrajes (mosquetón, argolla, regulador, hebilla) $2.913 · Cintas, hilo y agujas $850 · Parche, etiqueta y packaging $500 · Uso de máquinas $500",
+        "$4.763"
+      ],
+      [
+        "Canje",
+        "Descuento del canje (1 de cada 4 clientes, bono del 10%) $625 · Productos para las empresas $106",
+        "$731"
+      ],
+      [
+        "Cobro",
+        "Comisión de Pago Nube (4,24%)",
+        "$1.059"
+      ],
+      [
+        "Costo total",
+        "",
+        "$16.674"
+      ],
+      [
+        "Aporte",
+        "Lo que queda para cubrir los costos fijos (33,3% del precio)",
+        "$8.326"
+      ]
+    ],
+    [
+      [
+        "Concepto",
+        "Tipo",
+        "Importe"
+      ],
+      [
+        "Monotributo, categoría A (vigente desde agosto de 2026)",
+        "Fijo mensual",
+        "$49.527,18"
+      ],
+      [
+        "Tienda online (plan gratuito de Tiendanube)",
+        "Fijo mensual",
+        "Sin abono"
+      ],
+      [
+        "Espacio en ferias y eventos pet friendly",
+        "Por evento",
+        "A averiguar"
+      ],
+      [
+        "Publicidad paga en Instagram",
+        "Mensual, opcional",
+        "A definir"
+      ],
+      [
+        "Stand, exhibidores, cartel del canje y muestras",
+        "Inversión inicial",
+        "A presupuestar"
+      ],
+      [
+        "Compra inicial de avíos y packaging",
+        "Inversión inicial",
+        "$70.000 a $200.000, según el mayorista"
+      ],
+      [
+        "Prototipos y unidades de prueba",
+        "Inversión inicial",
+        "Según avíos y tiempo"
+      ],
+      [
+        "Balanza, bolsas y cajas de acopio",
+        "Inversión inicial",
+        "A presupuestar"
+      ]
+    ]
+  ],
+  "costHighlights": [
+    {
+      "title": "$16.674",
+      "text": "costo total por set"
+    },
+    {
+      "title": "6 sets",
+      "text": "por mes para pagar el Monotributo"
+    },
+    {
+      "title": "$22.000 y $28.000",
+      "text": "talles chico y grande"
+    },
+    {
+      "title": "El aporte no es ganancia",
+      "text": "cubre los costos fijos."
+    }
+  ],
+  "investmentNote": "Las máquinas de coser, el lavarropas y los autos son de los integrantes; no se cuentan como inversión y su desgaste se suma al costo de cada producto.",
+  "milestones": [
+    {
+      "title": "1 de diciembre",
+      "text": "Lanzamiento digital: tienda online y presentación en Instagram."
+    },
+    {
+      "title": "5 y 6 de diciembre",
+      "text": "Lanzamiento presencial en la primera feria."
+    },
+    {
+      "title": "12 al 20 de diciembre",
+      "text": "Más acciones de venta antes de las fiestas."
+    }
+  ],
+  "timeline": [
+    {
+      "title": "Logística inversa",
+      "text": "21/10 al 5/11 · Concretar los acuerdos de abastecimiento con las marcas, empezando por las que ya conocemos, y acordar con Hebra Circular la recepción de recortes. Responsable: Logística y canje."
+    },
+    {
+      "title": "Producción",
+      "text": "21/10 al 5/11 · Diseñar moldes, curva de talles y guía de medidas. Responsable: Diseño y confección."
+    },
+    {
+      "title": "Producción",
+      "text": "6/11 al 15/11 · Fabricar prototipos, hacer pruebas de tracción y lavado y medir el tiempo real de confección. Responsable: Diseño y confección."
+    },
+    {
+      "title": "Comercialización",
+      "text": "2/11 al 30/11 · Crear Instagram y WhatsApp Business y producir el contenido de prelanzamiento. Responsable: Redes y ventas."
+    },
+    {
+      "title": "Comercialización",
+      "text": "2/11 al 15/11 · Relevar e inscribirse en ferias de diciembre. Responsable: Redes y ventas."
+    },
+    {
+      "title": "Producción",
+      "text": "9/11 al 22/11 · Costear cuchas, camitas y juguetes con los tiempos medidos. Responsable: Administración."
+    },
+    {
+      "title": "Producción",
+      "text": "10/11 al 16/11 · Comprar avíos y packaging. Responsable: Administración."
+    },
+    {
+      "title": "Logística inversa",
+      "text": "16/11 al 22/11 · Validar las condiciones del canje y la planilla de bonos. Responsable: Administración, con Logística y canje."
+    },
+    {
+      "title": "Producción",
+      "text": "16/11 al 29/11 · Confeccionar el stock inicial, con prioridad en correas y pecheras. Responsable: Diseño y confección."
+    },
+    {
+      "title": "Comercialización",
+      "text": "16/11 al 28/11 · Armar la tienda online con guía de talles, cuidados y precios. Responsable: Redes y ventas."
+    },
+    {
+      "title": "Comercialización",
+      "text": "23/11 al 27/11 · Fijar los precios de lanzamiento. Responsable: Administración."
+    },
+    {
+      "title": "Comercialización",
+      "text": "1/12 al 31/12 · Prueba piloto: registrar consultas, ventas, objeciones y precio aceptado. Responsable: Redes y ventas, con Administración."
+    }
+  ],
+  "risks": [
+    {
+      "title": "Pruebas de resistencia",
+      "text": "Si un prototipo no las supera, lanzamos con los modelos aprobados y sumamos el resto durante diciembre."
+    },
+    {
+      "title": "Abastecimiento",
+      "text": "Si los acuerdos se demoran, el material inicial sale de los jeans del equipo y su entorno, como primera prueba del canje."
+    },
+    {
+      "title": "Producción",
+      "text": "Si hay atraso, el 1/12 funciona como preventa, con el stock completo para la feria."
+    }
+  ],
+  "metrics": [
+    {
+      "title": "85%",
+      "text": "del material recibido con destino documentado a los seis meses"
+    },
+    {
+      "title": "Menos de 5%",
+      "text": "de productos con fallas de costura o herraje, una vez estabilizado el proceso"
+    },
+    {
+      "title": "Canje y recompra",
+      "text": "medidos cada mes y cada trimestre."
+    }
+  ],
+  "measurement": "Registramos en una planilla única la fecha, el origen, el peso y el destino del material, el producto elaborado, los costos, la venta y la calidad. No comunicamos agua ni CO₂ ahorrados hasta contar con una metodología confiable; en el lanzamiento informamos kilos recibidos, incorporados y derivados."
+}
