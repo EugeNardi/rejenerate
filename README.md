@@ -11,6 +11,12 @@ npm run build
 npm run preview
 ```
 
+## Producción en Vercel
+
+Configurado para Node.js 24.x, instalación reproducible con `npm ci --include=dev`, compilación `npm run build` y salida `dist`. `vercel.json` permite abrir y recargar las rutas de React Router. No requiere backend ni claves de servicios externos.
+
+Importá `EugeNardi/rejenerate` en Vercel con **Root Directory `./`** y **Framework Vite**. Instrucciones completas: [DEPLOY_VERCEL.md](DEPLOY_VERCEL.md).
+
 Rutas: `/`, `/tienda`, `/tienda/:id` y página 404. `/modelo` redirige al capítulo del modelo en la landing. El hosting debe servir index.html como fallback de las rutas del navegador.
 
 La landing y la tienda tienen navegación diferente. La landing reúne la presentación del proyecto y conduce al catálogo con «Ir a la tienda». La selección solo aparece en las páginas de tienda. «Volver al proyecto» permite regresar.

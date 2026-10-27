@@ -5,3 +5,8 @@ dist/
 .npm-cache/
 .playwright-cli/
 output/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
