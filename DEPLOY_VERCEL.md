@@ -34,7 +34,7 @@ Una vez conectado el repositorio, los pushes a `main` generan un nuevo despliegu
 
 Los metadatos de redes usan `VERCEL_PROJECT_PRODUCTION_URL` o `VERCEL_URL`, sin depender del sitio privado anterior. Si querés fijar un dominio propio, agregá `VITE_SITE_URL=https://tudominio.com` en Vercel y volvé a desplegar. No incluyas claves ni contraseñas en variables con prefijo `VITE_`.
 
-Instagram, WhatsApp y la feria siguen pendientes en `src/config/site.ts`. Las imágenes ilustrativas, precios y equivalencias de talles necesitan la validación comercial indicada en el README antes de habilitar ventas reales.
+Instagram ya está configurado; WhatsApp y la feria siguen pendientes en `src/config/site.ts`. Las imágenes ilustrativas, precios y equivalencias de talles necesitan la validación comercial indicada en el README antes de habilitar ventas reales.
 
 ## Referencias
 

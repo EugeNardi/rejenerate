@@ -25,7 +25,7 @@ La presentación contiene unas 3.600 palabras: idea y propósito, canje de dos v
 
 ## Contenido y marca
 
-Se usaron el catálogo y las imágenes provistas, Lora y Lato con sus licencias OFL, la paleta original y la dirección «Costura a la vista». No hay pagos, pedidos ni captura de datos. Instagram, WhatsApp y feria siguen en null en `src/config/site.ts`.
+Se usaron el catálogo y las imágenes provistas, Lora y Lato con sus licencias OFL, la paleta original y la dirección «Costura a la vista». No hay pagos, pedidos ni captura de datos. Instagram está configurado en `src/config/site.ts` como https://www.instagram.com/rejeanerate1/. WhatsApp y feria siguen pendientes.
 
 Referencia editorial: [VERIÉ, Ismail Nahid, Dribbble](https://dribbble.com/shots/26756837-VERI-Modern-Fashion-Website-Design). Se consultó Awwwards, pero su portada no respondió. No se copiaron imágenes ni identidad de terceros.
 
@@ -38,3 +38,11 @@ Los informes Lighthouse se guardan por versión en `output/playwright/`; las med
 Medición móvil de la presentación extensa: rendimiento 78, accesibilidad 100 y buenas prácticas 100; LCP 3,7 s, sin desplazamientos de diseño. La carga anticipada de las fuentes redujo el bloqueo del hilo principal. El objetivo de rendimiento 85 y LCP menor a 2,5 s del documento inicial aún no se alcanza con esta versión ampliada.
 
 Pendientes comerciales: fotos reales de prototipos, contactos, ubicación de feria, equivalencia de talles y validación final de precios. La tienda conserva el alcance de demostración del material entregado.
+
+## Actualización del speech · 31/10/2026
+
+La landing sigue los once bloques del speech final del 30/10/2026. Incluye navegación por anclas y teclas izquierda/derecha o PageUp/PageDown, prioridad de mascotas con clic, diferenciales progresivos, CANVAS interactivo, canje completo, cifras del set, calendario de diciembre y cierre del equipo. El anexo se abre con el botón del cierre o con la tecla A. La guía de talles continúa accesible desde la tienda y la landing.
+
+Instagram abre en otra pestaña desde la apertura, los canales, el cierre, el encabezado, el menú móvil y el pie. Los acuerdos se presentan como previstos y no se inventó una meta comercial para el piloto. Faltan fotos reales de equipo/prototipos y videos de respaldo.
+
+Validación: compilación TypeScript/Vite y recorrido local de controles, enlaces y menú móvil; capturas de escritorio y 390 px en output/playwright/speech-*.png. El navegador integrado no pudo conectarse; se usó Playwright CLI local.
